@@ -119,11 +119,22 @@
             <p><strong>Brunch:</strong> Sunday, 27th July, at Les Terrasses de Kerjoam, Guérande</p>
 
             <h3>✉️ RSVP</h3>
-            <p>Please RSVP with your dietary preferences before <strong>28th February 2025</strong> by email: <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a></p>
+            <p>Please RSVP with your dietary preferences before <strong>28th February 2025</strong> by email: <span id="rsvp-email"></span></p>
+            <script>
+                const rsvpUser = "griffin.ouassim";
+                const rsvpDomain = "gmail.com";
+                document.getElementById("rsvp-email").innerHTML = `<a href="mailto:${rsvpUser}@${rsvpDomain}">${rsvpUser}@${rsvpDomain}</a>`;
+            </script>
 
             <h3>🛌 Accommodation</h3>
             <p><strong>The closest hotel to the venue:</strong> Golden Tulip La Baule offers a 15% discount for the nights of 25th and 26th July 2025. Use the code <strong>"Mariage FELIACHI Ouassim 26072025"</strong> when booking.</p>
-            <p>Contact them at +33 2 72 25 21 21 or <a href="mailto:reservation@goldentuliplabaule.com">reservation@goldentuliplabaule.com</a>.</p>
+            <p>Contact them at +33 2 72 25 21 21 or <span id="hotel-email-en"></span>.</p>
+            <script>
+                const hotelUserEn = "reservation";
+                const hotelDomainEn = "goldentuliplabaule.com";
+                document.getElementById("hotel-email-en").innerHTML = `<a href="mailto:${hotelUserEn}@${hotelDomainEn}">${hotelUserEn}@${hotelDomainEn}</a>`;
+            </script>
+
             <p><strong>Other Options:</strong> Camping de l’Eden (also just next to the venue), Airbnb, or other hotels in St Nazaire, Pornichet, or La Baule.</p>
 
             <h3>🌟 Restaurant Recommendations</h3>
@@ -137,7 +148,12 @@
             <p><strong>Visit Nantes:</strong> Just a 35-minute train ride away, Nantes is the main city of the region and offers many cultural activities and iconic landmarks.</p>
 
             <h3>❓ Questions</h3>
-            <p>Email us at <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>!</p>
+            <p>Email us at <span id="questions-email-en"></span>!</p>
+<script>
+    const questionsUserEn = "griffin.ouassim";
+    const questionsDomainEn = "gmail.com";
+    document.getElementById("questions-email-en").innerHTML = `<a href="mailto:${questionsUserEn}@${questionsDomainEn}">${questionsUserEn}@${questionsDomainEn}</a>`;
+</script>
         </div>
 
         <div id="french" class="faq-section">
@@ -156,12 +172,22 @@
             <p><strong>Brunch :</strong> le lendemain matin, Terrasses de Kerjoam, Guérande</p>
 
             <h3>✉️ RSVP</h3>
-            <p>Merci de confirmer votre présence avant le <strong>28 février 2025</strong> et de préciser vos restrictions alimentaires par email : <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>.</p>
+            <p>Merci de confirmer votre présence avant le <strong>28 février 2025</strong> et de préciser vos restrictions alimentaires par email : <span id="rsvp-email"></span></p>
+<script>
+    const rsvpUser = "griffin.ouassim";
+    const rsvpDomain = "gmail.com";
+    document.getElementById("rsvp-email").innerHTML = `<a href="mailto:${rsvpUser}@${rsvpDomain}">${rsvpUser}@${rsvpDomain}</a>`;
+</script>
 
             <h3>🛌 Hébergement</h3>
             <p><strong>Hôtel le plus proche :</strong> le Golden Tulip La Baule propose une réduction de 15 % pour les nuits du 25 et 26 juillet 2025. Utilisez le code <strong>"Mariage FELIACHI Ouassim 26072025"</strong>.</p>
-            <p>Contactez-les au +33 2 72 25 21 21 ou à <a href="mailto:reservation@goldentuliplabaule.com">reservation@goldentuliplabaule.com</a>.</p>
-            <p><strong>Autres options :</strong> Camping de l’Eden, Airbnb ou hôtels locaux à Saint-Nazaire ou Pornichet.</p>
+            <p>Contactez-les au +33 2 72 25 21 21 ou à à <span id="hotel-email-fr"></span>.</p>
+<script>
+    const hotelUserFr = "reservation";
+    const hotelDomainFr = "goldentuliplabaule.com";
+    document.getElementById("hotel-email-fr").innerHTML = `<a href="mailto:${hotelUserFr}@${hotelDomainFr}">${hotelUserFr}@${hotelDomainFr}</a>`;
+</script>
+            <p><strong>Autres options :</strong> Camping de l’Eden, Airbnb ou hôtels à Saint-Nazaire, La Baule ou Pornichet.</p>
 
             <h3>🌟 Activités dans la région </h3>
             <p><strong>Côte Sauvage :</strong> De nombreuses plages le long de la Côte et du Chemin des Douaniers (sentier de randonnée GR34).</p>
@@ -169,7 +195,13 @@
             <p><strong>Culture :</strong> De nombreux musées retracent l'histoire industrielle et maritime de la ville à Saint-Nazaire. Nantes n'est également qu'à 35 minutes de train.</p>
 
             <h3>❓ Questions</h3>
-            <p>Envoyez-nous un email à <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>.</p>
+            <p>Envoyez-nous un email à <span id="questions-email-fr"></span>.</p>
+<script>
+    const questionsUserFr = "griffin.ouassim";
+    const questionsDomainFr = "gmail.com";
+    document.getElementById("questions-email-fr").innerHTML = `<a href="mailto:${questionsUserFr}@${questionsDomainFr}">${questionsUserFr}@${questionsDomainFr}</a>`;
+</script>
+
         </div>
     </div>
 
