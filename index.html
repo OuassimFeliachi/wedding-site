@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding FAQ - Ouassim & Griffin</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background: url('eng.jpg') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .language-selection {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .language-selection button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .language-selection button:hover {
+            background: #555;
+        }
+
+        .faq-section {
+            display: none;
+        }
+
+        .faq-section.active {
+            display: block;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wedding FAQ - Ouassim & Griffin</h1>
+    </header>
+
+    <div class="container">
+        <div class="language-selection">
+            <p>Select your preferred language:</p>
+            <button onclick="showFAQ('english')">English</button>
+            <button onclick="showFAQ('french')">Français</button>
+        </div>
+
+        <div id="english" class="faq-section">
+            <h2>FAQ</h2>
+            <h3>📍 Location</h3>
+            <p><strong>Ceremony:</strong> 2:00 PM on <strong>Saturday, 26th July 2025</strong>, at <strong>Hôtel de Ville de St Nazaire</strong>.</p>
+            <p><strong>Reception:</strong> Les Terrasses de Kerjoam in Guérande (10 min drive from the ceremony).</p>
+            <p><strong>Brunch:</strong> Hosted at Les Terrasses de Kerjoam the day after.</p>
+
+            <h3>🚉 How to Get to St Nazaire</h3>
+            <p><strong>From Paris:</strong> The TGV (high-speed train) is the easiest way to reach St Nazaire. Trains run regularly from Paris Montparnasse station, and the journey takes approximately 3 hours.</p>
+
+            <h3>🕒 Schedule</h3>
+            <p><strong>Ceremony:</strong> 2:00 PM at Hôtel de Ville de St Nazaire</p>
+            <p><strong>Cocktail & Dinner:</strong> After the ceremony, at Les Terrasses de Kerjoam, Guérande</p>
+            <p><strong>Brunch:</strong> Sunday, 27th July, at Les Terrasses de Kerjoam, Guérande</p>
+
+            <h3>✉️ RSVP</h3>
+            <p>Please RSVP with your dietary preferences before <strong>28th February 2025</strong> by email: <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a></p>
+
+            <h3>🛌 Accommodation</h3>
+            <p><strong>The closest hotel to the venue:</strong> Golden Tulip La Baule offers a 15% discount for the nights of 25th and 26th July 2025. Use the code <strong>"Mariage FELIACHI Ouassim 26072025"</strong> when booking.</p>
+            <p>Contact them at +33 2 72 25 21 21 or <a href="mailto:reservation@goldentuliplabaule.com">reservation@goldentuliplabaule.com</a>.</p>
+            <p><strong>Other Options:</strong> Camping de l’Eden (also just next to the venue), Airbnb, or other hotels in St Nazaire, Pornichet, or La Baule.</p>
+
+            <h3>🌟 Restaurant Recommendations</h3>
+            <p><strong>Crêperies:</strong> Le Chat Gourmand in La Baule, La Crêperie du Port in Le Croisic, or La Musardière in St Nazaire.</p>
+            <p><strong>Traditional Cuisine:</strong> Le Sabayon in St Nazaire offers affordable local dishes.</p>
+
+            <h3>🌟 Things to Do in the Region</h3>
+            <p><strong>Explore the Coast:</strong> From Saint-Nazaire to Le Croisic, enjoy beautiful beaches and hiking along the <a href="https://www.gr-infos.com/en/gr34.htm" target="_blank">Chemin des Douaniers (GR34)</a>.</p>
+            <p><strong>Visit les Marais Salants:</strong> Right next to the venue, discover the  <a href="https://www.saintnazaire-tourisme.com/en/marais-salants" target="_blank">salt marshes</a> of Guérande.</p>
+            <p><strong>Cultural Activities:</strong> Musem related to the industrial and maritime history of St Nazaire (<a href="https://www.saintnazaire-tourisme.com/en/escalatlantic" target="_blank">Escal’Atlantic</a>, <a href="https://www.saintnazaire-tourisme.com/en/visit/shipyards" target="_blank">Shipyards of St Nazaire</a>...). </p>
+            <p><strong>Visit Nantes:</strong> Just a 35-minute train ride away, Nantes is the main city of the region and offers many cultural activities and iconic landmarks.</p>
+
+            <h3>❓ Questions</h3>
+            <p>Email us at <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>!</p>
+        </div>
+
+        <div id="french" class="faq-section">
+            <h2>FAQ</h2>
+            <h3>📍 Lieu</h3>
+            <p><strong>Cérémonie :</strong> 14h00, le <strong>samedi 26 juillet 2025</strong>, à l’<strong>Hôtel de Ville de Saint-Nazaire</strong>.</p>
+            <p><strong>Cocktail et dîner :</strong> Aux Terrasses de Kerjoam à Guérande (10 minues en voiture depuis l'Hôtel de Ville de Saint-Nazaire.</p>
+            <p><strong>Brunch le lendemain :</strong> Organisé aux Terrasses de Kerjoam le lendemain.</p>
+
+            <h3>🚉 Comment venir à Saint-Nazaire</h3>
+            <p><strong>Depuis Paris :</strong> Le TGV est le moyen le plus simple pour rejoindre Saint-Nazaire. Les trains partent régulièrement de Paris Montparnasse, trajet d’environ 3 heures.</p>
+
+            <h3>🕒 Programme</h3>
+            <p><strong>Cérémonie :</strong> 14h00 à l’Hôtel de Ville de Saint-Nazaire</p>
+            <p><strong>Cocktail et dîner :</strong> après la cérémonie, aux Terrasses de Kerjoam, Guérande</p>
+            <p><strong>Brunch :</strong> le lendemain matin, Terrasses de Kerjoam, Guérande</p>
+
+            <h3>✉️ RSVP</h3>
+            <p>Merci de confirmer votre présence avant le <strong>28 février 2025</strong> et de préciser vos restrictions alimentaires par email : <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>.</p>
+
+            <h3>🛌 Hébergement</h3>
+            <p><strong>Hôtel le plus proche :</strong> le Golden Tulip La Baule propose une réduction de 15 % pour les nuits du 25 et 26 juillet 2025. Utilisez le code <strong>"Mariage FELIACHI Ouassim 26072025"</strong>.</p>
+            <p>Contactez-les au +33 2 72 25 21 21 ou à <a href="mailto:reservation@goldentuliplabaule.com">reservation@goldentuliplabaule.com</a>.</p>
+            <p><strong>Autres options :</strong> Camping de l’Eden, Airbnb ou hôtels locaux à Saint-Nazaire ou Pornichet.</p>
+
+            <h3>🌟 Activités dans la région </h3>
+            <p><strong>Côte Sauvage :</strong> De nombreuses plages le long de la Côte et du Chemin des Douaniers (sentier de randonnée GR34).</p>
+            <p><strong>Visiter les Marais Salants :</strong> A proximité immédiate des Terrasses de Kerjoam, il est possible d'explorer les  <a href="https://www.saintnazaire-tourisme.com/en/marais-salants" target="_blank">marais salants de Guérande</a>  à pied ou à vélo.</p>
+            <p><strong>Culture :</strong> De nombreux musées retracent l'histoire industrielle et maritime de la ville à Saint-Nazaire. Nantes n'est également qu'à 35 minutes de train.</p>
+
+            <h3>❓ Questions</h3>
+            <p>Envoyez-nous un email à <a href="mailto:griffin.ouassim@gmail.com">griffin.ouassim@gmail.com</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        function showFAQ(language) {
+            document.querySelectorAll('.faq-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(language).classList.add('active');
+        }
+    </script>
+</body>
+</html>
