@@ -1,12 +1,32 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding FAQ - Ouassim & Griffin</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Internal CSS (optional) -->
     <style>
         body {
-            font-family: 'Helvetica', Arial, sans-serif;
+            font-family: 'Lato', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-weight: 700;
+        }
+        blockquote {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -119,7 +139,7 @@
             <p><strong>Brunch:</strong> Sunday, 27th July, at Les Terrasses de Kerjoam, Guérande</p>
 
             <h3>✉️ RSVP</h3>
-            <p>Please RSVP with your dietary preferences before <strong>28th February 2025</strong> by email: <span id="rsvp-email"></span></p>
+            <p>Please RSVP with your dietary restrictions before <strong>28th February 2025</strong> by email: <span id="rsvp-email"></span>. Guests are kindly asked not to bring plus ones unless we mentioned it in your invite. Thanks for understanding!</p>
             <script>
                 const rsvpUser = "griffin.ouassim";
                 const rsvpDomain = "gmail.com";
@@ -127,6 +147,7 @@
             </script>
 
             <h3>🛌 Accommodation</h3>
+                        <p>July is peak tourist season in the region, so we recommend booking early to ensure availability.</p>
             <p><strong>The closest hotel to the venue:</strong> Golden Tulip La Baule offers a 15% discount for the nights of 25th and 26th July 2025. Use the code <strong>"Mariage FELIACHI Ouassim 26072025"</strong> when booking.</p>
             <p>Contact them at +33 2 72 25 21 21 or <span id="hotel-email-en"></span>.</p>
             <script>
@@ -135,16 +156,16 @@
                 document.getElementById("hotel-email-en").innerHTML = `<a href="mailto:${hotelUserEn}@${hotelDomainEn}">${hotelUserEn}@${hotelDomainEn}</a>`;
             </script>
 
-            <p><strong>Other Options:</strong> Camping de l’Eden (also just next to the venue), Airbnb, or other hotels in St Nazaire, Pornichet, or La Baule.</p>
+            <p><strong>Other Options:</strong> Camping de l’Eden (a cheaper option also just next to the venue), Airbnbs, or any hotels in St Nazaire, Pornichet, or La Baule.</p>
 
-            <h3>🌟 Restaurant Recommendations</h3>
+            <h3>🍴 Restaurant Recommendations</h3>
             <p><strong>Crêperies:</strong> Le Chat Gourmand in La Baule, La Crêperie du Port in Le Croisic, or La Musardière in St Nazaire.</p>
             <p><strong>Traditional Cuisine:</strong> Le Sabayon in St Nazaire offers affordable local dishes.</p>
 
             <h3>🌟 Things to Do in the Region</h3>
             <p><strong>Explore the Coast:</strong> From Saint-Nazaire to Le Croisic, enjoy beautiful beaches and hiking along the <a href="https://www.gr-infos.com/en/gr34.htm" target="_blank">Chemin des Douaniers (GR34)</a>.</p>
             <p><strong>Visit les Marais Salants:</strong> Right next to the venue, discover the  <a href="https://en.labaule-guerande.com/visit-guerande-and-its-salt-marshes.html?origine=switchLangue" target="_blank">salt marshes</a> of Guérande.</p>
-            <p><strong>Cultural Activities:</strong> Musem related to the industrial and maritime history of St Nazaire (<a href="https://www.saint-nazaire-tourisme.uk/attractions-and-tours/attractions/escalatlantic/" target="_blank">Escal’Atlantic</a>, <a href="https://www.saint-nazaire-tourisme.uk/attractions-and-tours/industrial-tours/shipyard/" target="_blank">Shipyards of St Nazaire</a>...). </p>
+            <p><strong>Cultural Activities:</strong> Many museums related to the industrial and maritime history of St Nazaire (<a href="https://www.saint-nazaire-tourisme.uk/attractions-and-tours/attractions/escalatlantic/" target="_blank">Escal’Atlantic</a>, <a href="https://www.saint-nazaire-tourisme.uk/attractions-and-tours/industrial-tours/shipyard/" target="_blank">Shipyards of St Nazaire</a>...). </p>
             <p><strong>Visit Nantes:</strong> Just a 35-minute train ride away, Nantes is the main city of the region and offers many cultural activities and iconic landmarks.</p>
 
             <h3>❓ Questions</h3>
@@ -172,12 +193,12 @@
             <p><strong>Brunch :</strong> le lendemain matin, Terrasses de Kerjoam, Guérande</p>
 
             <h3>✉️ RSVP</h3>
-            <p>Merci de confirmer votre présence avant le <strong>28 février 2025</strong> et de préciser vos restrictions alimentaires par email : <span id="rsvp-email"></span></p>
-<script>
-    const rsvpUser = "griffin.ouassim";
-    const rsvpDomain = "gmail.com";
-    document.getElementById("rsvp-email").innerHTML = `<a href="mailto:${rsvpUser}@${rsvpDomain}">${rsvpUser}@${rsvpDomain}</a>`;
-</script>
+            <p>Merci de confirmer votre présence avant le <strong>28 février 2025</strong> et de préciser vos restrictions alimentaires par email : <span id="rsvp-email-fr"></span>.</p>
+            <script>
+                const rsvpUserFr = "griffin.ouassim";
+                const rsvpDomainFr = "gmail.com";
+                document.getElementById("rsvp-email-fr").innerHTML = `<a href="mailto:${rsvpUserFr}@${rsvpDomainFr}">${rsvpUserFr}@${rsvpDomainFr}</a>`;
+            </script>
 
             <h3>🛌 Hébergement</h3>
             <p><strong>Hôtel le plus proche :</strong> le Golden Tulip La Baule propose une réduction de 15 % pour les nuits du 25 et 26 juillet 2025. Utilisez le code <strong>"Mariage FELIACHI Ouassim 26072025"</strong>.</p>
@@ -187,9 +208,12 @@
     const hotelDomainFr = "goldentuliplabaule.com";
     document.getElementById("hotel-email-fr").innerHTML = `<a href="mailto:${hotelUserFr}@${hotelDomainFr}">${hotelUserFr}@${hotelDomainFr}</a>`;
 </script>
-            <p><strong>Autres options :</strong> Camping de l’Eden, Airbnb ou hôtels à Saint-Nazaire, La Baule ou Pornichet.</p>
-
-            <h3>🌟 Activités dans la région </h3>
+            <p><strong>Autres options :</strong> Camping de l’Eden (option moins chère juste à côté de la salle), Airbnbs ou hôtels à Saint-Nazaire, La Baule, Guérande ou Pornichet.</p>
+            <h3>🍴 Quelques recommandations de restaurants</h3>
+            <p> En été, ce ne sont pas les attrape-touristes qui manquent, alors voici quelques recommandations pour y échapper : </p>
+            <p><strong>Crêperies :</strong> Le Chat Gourmand à La Baule, La Crêperie du Port au Croisic, ou La Musardière à Saint-Nazaire.</p>
+            <p><strong>Cuisine locale :</strong> Le Sabayon à Saint-Nazaire.</p>
+            <h3>🌟 A faire dans la région </h3>
             <p><strong>Côte Sauvage :</strong> De nombreuses plages le long de la Côte et du Chemin des Douaniers (sentier de randonnée GR34).</p>
             <p><strong>Visiter les Marais Salants :</strong> A proximité immédiate des Terrasses de Kerjoam, il est possible d'explorer les  <a href="https://www.labaule-guerande.com/visitez-les-marais-salants.html" target="_blank">marais salants de Guérande</a>  à pied ou à vélo.</p>
             <p><strong>Culture :</strong> De nombreux musées retracent l'histoire industrielle et maritime de la ville à Saint-Nazaire. Nantes n'est également qu'à 35 minutes de train.</p>
